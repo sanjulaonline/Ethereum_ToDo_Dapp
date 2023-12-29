@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "ToDO app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjulaonline/ToDo_Task_Dapp.git"
+  },
+  "keywords": [
+    "todo",
+    "app",
+    "task"
+  ],
+  "author": "sanjulaonline",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanjulaonline/ToDo_Task_Dapp/issues"
+  },
+  "homepage": "https://github.com/sanjulaonline/ToDo_Task_Dapp#readme",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.3.1",
+    "ethereum-waffle": "^4.0.10",
+    "hardhat": "^2.19.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0"
+  }
+}
